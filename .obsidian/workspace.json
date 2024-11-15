@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "624a0553f0efb99c",
+        "id": "1fe8aaafb43272de",
         "type": "tabs",
         "children": [
           {
-            "id": "c74b9ca2532706d2",
+            "id": "cc517f8fa8b3ada5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Test.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Test"
             }
           }
         ]
@@ -56,8 +60,21 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "6c3706be0cbb293a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -147,8 +164,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c74b9ca2532706d2",
+  "active": "6c3706be0cbb293a",
   "lastOpenFiles": [
+    "Test.md",
     "Git/2 - Quellen/Bücher/Mathe Basics für Data Scientists.md",
     "Git/3 - Tags/Docker.md",
     "Git/README.md",
@@ -178,7 +196,6 @@
     "Git/5 - Vorlagen/Note.md",
     "Git/5 - Vorlagen/Bücherquelle.md",
     "Git/5 - Vorlagen",
-    "Git/4 - Index/Index.md",
     "Git/4 - Index",
     "Git/3 - Tags",
     "Git/2 - Quellen/Bücher",

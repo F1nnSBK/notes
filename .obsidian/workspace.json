@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1fe8aaafb43272de",
+        "id": "6d128dc1c30c27ef",
         "type": "tabs",
         "children": [
           {
-            "id": "cc517f8fa8b3ada5",
+            "id": "2ae15e322bf0dfa3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "obsidian/6 - Zettel/Java-Basics.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Java-Basics"
             }
           }
         ]
@@ -160,8 +164,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c3706be0cbb293a",
+  "active": "2ae15e322bf0dfa3",
   "lastOpenFiles": [
+    "obsidian/6 - Zettel/Java-OOP.md",
+    "obsidian/6 - Zettel/Java-Basics.md",
+    "obsidian/3 - Tags/Java.md",
+    "obsidian/3 - Tags/Data-Science.md",
     "Test.md",
     "Git/2 - Quellen/Bücher/Mathe Basics für Data Scientists.md",
     "Git/3 - Tags/Docker.md",
@@ -186,11 +194,7 @@
     "Git/7 - Archiv/Übungen Kapitel 1.md",
     "Git/7 - Archiv",
     "Git/6 - Zettel/Zahlentheorie.md",
-    "Git/6 - Zettel/Summationen.md",
     "Git/6 - Zettel",
-    "Git/5 - Vorlagen/Tag.md",
-    "Git/5 - Vorlagen/Note.md",
-    "Git/5 - Vorlagen/Bücherquelle.md",
     "Git/5 - Vorlagen",
     "Git/4 - Index",
     "Git/3 - Tags",

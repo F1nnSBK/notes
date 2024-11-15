@@ -1,6 +1,6 @@
 #Note
 03.10.2024
-Tags: [[Data-Science]] [[Java]] 
+Tags:  [[Java]] [[Programmierung]]
 
 ### Kommentierung in Java
 

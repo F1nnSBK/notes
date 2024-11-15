@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "f9c9ade9e6b8de05",
+    "type": "split",
+    "children": [
+      {
+        "id": "624a0553f0efb99c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c74b9ca2532706d2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "247ebb3389ef028f",
+    "type": "split",
+    "children": [
+      {
+        "id": "13ee3a61d325d0b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "033efc73b71a21d1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "56c0754e681a945c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6721e0b837fca00d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe9140c7e982d841",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e485fab13e93732f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git/6 - Zettel/Befehlssammlung.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Befehlssammlung"
+            }
+          },
+          {
+            "id": "cd4473756f8a494f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git/6 - Zettel/Befehlssammlung.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Befehlssammlung"
+            }
+          },
+          {
+            "id": "2b4c569379e9c4bc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d1a453e4a5dcc9b8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git/6 - Zettel/Befehlssammlung.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Befehlssammlung"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "c74b9ca2532706d2",
+  "lastOpenFiles": [
+    "Git/2 - Quellen/Bücher/Mathe Basics für Data Scientists.md",
+    "Git/3 - Tags/Docker.md",
+    "Git/README.md",
+    "Git/6 - Zettel/Befehlssammlung.md",
+    "Git/6 - Zettel/Reihenfolge von Operationen.md",
+    "Git/3 - Tags/OOP.md",
+    "Git/3 - Tags/macOS.md",
+    "Git/6 - Zettel/Java-OOP.md",
+    "conflict-files-obsidian-git.md",
+    "Git/6 - Zettel/Java OOP.md",
+    "Git/6 - Zettel/Ableitungen.md",
+    "Git/6 - Zettel/Integrale.md",
+    "Git/6 - Zettel/Eulersche Zahl, Logarithmus, Grenzwerte & Wurzeln.md",
+    "Git/6 - Zettel/Java-Basics.md",
+    "Git/6 - Zettel/Mathematische Funktionen.md",
+    "Git/2 - Quellen/Websites/Baeldung.md",
+    "Git/2 - Quellen/Websites",
+    "Git/3 - Tags/Programmierung.md",
+    "Schleifen in Java.md",
+    "Git/3 - Tags/Java.md",
+    "Git/7 - Archiv/Übungen Kapitel 1.md",
+    "Git/7 - Archiv",
+    "Git/6 - Zettel/Zahlentheorie.md",
+    "Git/6 - Zettel/Summationen.md",
+    "Git/6 - Zettel",
+    "Git/5 - Vorlagen/Tag.md",
+    "Git/5 - Vorlagen/Note.md",
+    "Git/5 - Vorlagen/Bücherquelle.md",
+    "Git/5 - Vorlagen",
+    "Git/4 - Index/Index.md",
+    "Git/4 - Index",
+    "Git/3 - Tags",
+    "Git/2 - Quellen/Bücher",
+    "Git/2 - Quellen",
+    "Git/1 - Schnelle Notizen",
+    "Git"
+  ]
+}

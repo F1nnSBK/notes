@@ -1,0 +1,11 @@
+#Note
+{{date}}
+Tags: 
+
+
+
+
+
+
+---
+## Info

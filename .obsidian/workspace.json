@@ -161,13 +161,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2ae15e322bf0dfa3",
+  "active": "6c3706be0cbb293a",
   "lastOpenFiles": [
-    "obsidian/6 - Zettel/Java-OOP.md",
     "obsidian/6 - Zettel/Java-Basics.md",
+    "Excalidraw/Drawing 2024-11-15 12.10.01.excalidraw.md",
+    "Excalidraw",
+    "obsidian/6 - Zettel/Java-OOP.md",
     "obsidian/3 - Tags/Java.md",
     "obsidian/3 - Tags/Data-Science.md",
     "Test.md",
@@ -193,14 +196,12 @@
     "Git/3 - Tags/Java.md",
     "Git/7 - Archiv/Übungen Kapitel 1.md",
     "Git/7 - Archiv",
-    "Git/6 - Zettel/Zahlentheorie.md",
     "Git/6 - Zettel",
     "Git/5 - Vorlagen",
     "Git/4 - Index",
     "Git/3 - Tags",
     "Git/2 - Quellen/Bücher",
     "Git/2 - Quellen",
-    "Git/1 - Schnelle Notizen",
-    "Git"
+    "Git/1 - Schnelle Notizen"
   ]
 }

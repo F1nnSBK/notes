@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Befehlssammlung"
             }
+          },
+          {
+            "id": "c8b09ced60040c88",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +178,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2ae15e322bf0dfa3",
+  "active": "c8b09ced60040c88",
   "lastOpenFiles": [
     "obsidian/6 - Zettel/Java-Basics.md",
     "Excalidraw/Drawing 2024-11-15 12.10.01.excalidraw.md",

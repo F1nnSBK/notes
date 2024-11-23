@@ -328,7 +328,7 @@ public void whenCopiedWithClone_thenExactMatchIsCreated()
 ```
 Hier wird ein clonedUser Objekt erstellt, welches die exakt gleichen Eigenschaften wie das user Objekt hat.
 
-Serialisierung wird verwendet um ein Objekt in einen Bytestrom umzuwandeln, so kann es beispielsweise über das Netzwerk versendet werden.  
+Serialisierung wird verwendet um ein Objekt in einen Bytestream umzuwandeln, so kann es beispielsweise über das Netzwerk versendet werden.  
 ```Java
 import java.io.*;
 

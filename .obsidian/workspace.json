@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6d128dc1c30c27ef",
+        "id": "05cad2ae8a5801c9",
         "type": "tabs",
         "children": [
           {
-            "id": "2ae15e322bf0dfa3",
+            "id": "c3cd4bde00c90f35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/6 - Zettel/Befehlssammlung.md",
+                "file": "obsidian/6 - Zettel/Java-OOP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Befehlssammlung"
+              "title": "Java-OOP"
             }
           }
         ]
@@ -165,9 +165,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2ae15e322bf0dfa3",
+  "active": "c3cd4bde00c90f35",
   "lastOpenFiles": [
     "obsidian/6 - Zettel/Java-Basics.md",
+    "obsidian/7 - Archiv/Übungen Kapitel 1.md",
+    "obsidian/3 - Tags/Mathe.md",
+    "obsidian/6 - Zettel/Befehlssammlung.md",
     "Excalidraw/Drawing 2024-11-15 12.10.01.excalidraw.md",
     "Excalidraw",
     "obsidian/6 - Zettel/Java-OOP.md",
@@ -192,9 +195,6 @@
     "Git/2 - Quellen/Websites/Baeldung.md",
     "Git/2 - Quellen/Websites",
     "Git/3 - Tags/Programmierung.md",
-    "Schleifen in Java.md",
-    "Git/3 - Tags/Java.md",
-    "Git/7 - Archiv/Übungen Kapitel 1.md",
     "Git/7 - Archiv",
     "Git/6 - Zettel",
     "Git/5 - Vorlagen",

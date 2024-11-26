@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "05cad2ae8a5801c9",
+        "id": "8ee50876e9c1c852",
         "type": "tabs",
         "children": [
           {
-            "id": "c3cd4bde00c90f35",
+            "id": "1e489003e9cae7be",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,10 +165,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c3cd4bde00c90f35",
+  "active": "6c3706be0cbb293a",
   "lastOpenFiles": [
-    "obsidian/3 - Tags/Docker.md",
+    "obsidian/2 - Quellen/Bücher/Mathe Basics für Data Scientists.md",
+    "obsidian/6 - Zettel/Mathematische Funktionen.md",
     "obsidian/6 - Zettel/Befehlssammlung.md",
+    "obsidian/3 - Tags/Docker.md",
     "obsidian/6 - Zettel/Java-OOP.md",
     "obsidian/6 - Zettel/Java-Basics.md",
     "obsidian/7 - Archiv/Übungen Kapitel 1.md",
@@ -192,8 +194,6 @@
     "Git/6 - Zettel/Integrale.md",
     "Git/6 - Zettel/Eulersche Zahl, Logarithmus, Grenzwerte & Wurzeln.md",
     "Git/6 - Zettel/Java-Basics.md",
-    "Git/6 - Zettel/Mathematische Funktionen.md",
-    "Git/2 - Quellen/Websites/Baeldung.md",
     "Git/2 - Quellen/Websites",
     "Git/7 - Archiv",
     "Git/6 - Zettel",

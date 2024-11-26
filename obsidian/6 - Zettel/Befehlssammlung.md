@@ -7,6 +7,8 @@ Tags: [[Java]] [[Python]] [[macOS]] [[Programmierung]] [[Docker]]
 - Project ändern
 	- `gcloud config set project <project_id>` Projekt ändern.
 	- `gcloud auth application-default set-quota-project <project_id>` setzt die richtigen Berechtigungen für das neue Projekt.
+- Cloud Run Service 
+	- 
 
 #### Python
 #### Airflow 

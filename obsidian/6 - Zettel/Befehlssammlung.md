@@ -20,6 +20,9 @@ Tags: [[Java]] [[Python]] [[macOS]] [[Programmierung]] [[Docker]]
 	+ `git push -d <remote_name> <branch_name>` löscht den remote branch. Oft ist `<remote_name>` origin.
 
 #### Docker
++ Docker build
+	+ `docker build -t <image_name> .` baut das Docker image mit der dockerfile im aktuellen Verzeichnis.
+	+ 
 - Docker compose command:
 	- `docker compose build --no-cache` use local Dockerfile to build a container without cache
 	- `docker compose up` start docker container

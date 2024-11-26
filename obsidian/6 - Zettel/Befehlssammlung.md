@@ -10,6 +10,7 @@ Tags: [[Java]] [[Python]] [[macOS]] [[Programmierung]] [[Docker]]
 - Cloud Run Service 
 	- `gcloud storage buckets notifications list gs://example-bucket
 	- `gcloud storage buckets notifications describe projects/_/buckets/svg-dcc-raw-tst/notificationConfigs/92`
+	- `gcloud run deploy sdd-file-dispatch-service --image europe-west3-docker.pkg.dev/svg-dcc-tst-cloudservices-aa07/docker/sdd-file-dispatch-service@sha256:c3f3831919c5a86e27b56aa689ccb29b43d931552e43a85cd084ec811d8d101b --set-env-vars SENDER_EMAIL_PASSWORD=dN04d2023+Sv,EMAIL_API_ENDPOINT=https://sdd-email-sending-service-dev-396758236115.europe-west4.run.app/v1/send-mail`
 
 #### Python
 #### Airflow 

@@ -22,7 +22,7 @@ Tags: [[Java]] [[Python]] [[macOS]] [[Programmierung]] [[Docker]]
 #### Docker
 + Docker build
 	+ `docker build -t <image_name> .` baut das Docker image mit der dockerfile im aktuellen Verzeichnis.
-	+ 
+	+ `docker run -p 8080:8080 <image_name>` startet das Docker Image auf einem bestimmten Port. Kann auch ohne `-p` Flag genutzt werden.
 - Docker compose command:
 	- `docker compose build --no-cache` use local Dockerfile to build a container without cache
 	- `docker compose up` start docker container

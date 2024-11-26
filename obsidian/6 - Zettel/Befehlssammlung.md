@@ -3,6 +3,10 @@
 
 Tags: [[Java]] [[Python]] [[macOS]] [[Programmierung]] [[Docker]]
 
+#### Git
++ Branch löschen
+	+ `git branch -d <branch_name>` löscht den lokalen branch
+	+ `git push -d <remote_name> <branch_name>` löscht den remote branch. Oft ist `<remote_name>` origin.
 #### Google Cloud
 - Project ändern
 	- `gcloud config set project <project_id>` Projekt ändern.

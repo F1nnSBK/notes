@@ -3,14 +3,22 @@
 
 Tags: [[Java]] [[Python]] [[macOS]] [[Programmierung]] [[Docker]]
 
-#### Git
-+ Branch löschen
-	+ `git branch -d <branch_name>` löscht den lokalen branch
-	+ `git push -d <remote_name> <branch_name>` löscht den remote branch. Oft ist `<remote_name>` origin.
 #### Google Cloud
 - Project ändern
 	- `gcloud config set project <project_id>` Projekt ändern.
 	- `gcloud auth application-default set-quota-project <project_id>` setzt die richtigen Berechtigungen für das neue Projekt.
+
+#### Python
+#### Airflow 
+- Start airflow docker container:
+	`source /Users/finnhertsch/venv/composer-local-venv/bin/activate && cd /Users/finnhertsch/composer && composer-dev restart composer-local-instance`
+
+#### Tools 
+#### Git
++ Branch löschen
+	+ `git branch -d <branch_name>` löscht den lokalen branch
+	+ `git push -d <remote_name> <branch_name>` löscht den remote branch. Oft ist `<remote_name>` origin.
+
 #### Docker
 - Docker compose command:
 	- `docker compose build --no-cache` use local Dockerfile to build a container without cache
@@ -21,12 +29,6 @@ Tags: [[Java]] [[Python]] [[macOS]] [[Programmierung]] [[Docker]]
 - Show docker stats:
 	`docker stats`  shows stats of running containers
 
-#### Python
-#### Airflow 
-- Start airflow docker container:
-	`source /Users/finnhertsch/venv/composer-local-venv/bin/activate && cd /Users/finnhertsch/composer && composer-dev restart composer-local-instance`
-
-#### Tools 
 ##### Tree
 - Tree with full recursion depth:
 	`tree <directory>`

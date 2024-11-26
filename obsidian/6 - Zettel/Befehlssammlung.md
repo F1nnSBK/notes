@@ -3,6 +3,10 @@
 
 Tags: [[Java]] [[Python]] [[macOS]] [[Programmierung]] [[Docker]]
 
+#### Google Cloud
+- Project ändern
+	- `gcloud config set project <project_id>` Projekt ändern.
+	- `gcloud auth application-default set-quota-project <project_id>` setzt die richtigen Berechtigungen für das neue Projekt.
 #### Docker
 - Docker compose command:
 	- `docker compose build --no-cache` use local Dockerfile to build a container without cache

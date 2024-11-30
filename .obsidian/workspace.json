@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/6 - Zettel/Befehlssammlung.md",
+                "file": "obsidian/6 - Zettel/Ableitungen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Befehlssammlung"
+              "title": "Ableitungen"
             }
           }
         ]
@@ -165,11 +165,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6c3706be0cbb293a",
+  "active": "1e489003e9cae7be",
   "lastOpenFiles": [
+    "obsidian/6 - Zettel/Befehlssammlung.md",
     "obsidian/2 - Quellen/Bücher/Mathe Basics für Data Scientists.md",
     "obsidian/6 - Zettel/Mathematische Funktionen.md",
-    "obsidian/6 - Zettel/Befehlssammlung.md",
     "obsidian/3 - Tags/Docker.md",
     "obsidian/6 - Zettel/Java-OOP.md",
     "obsidian/6 - Zettel/Java-Basics.md",

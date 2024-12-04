@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/6 - Zettel/Ableitungen.md",
+                "file": "obsidian/6 - Zettel/Befehlssammlung.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ableitungen"
+              "title": "Befehlssammlung"
             }
           }
         ]
@@ -167,6 +167,8 @@
   },
   "active": "1e489003e9cae7be",
   "lastOpenFiles": [
+    "obsidian/6 - Zettel/Ableitungen.md",
+    "AntiSpam.canvas",
     "obsidian/6 - Zettel/Befehlssammlung.md",
     "obsidian/2 - Quellen/Bücher/Mathe Basics für Data Scientists.md",
     "obsidian/6 - Zettel/Mathematische Funktionen.md",
@@ -193,7 +195,6 @@
     "Git/6 - Zettel/Ableitungen.md",
     "Git/6 - Zettel/Integrale.md",
     "Git/6 - Zettel/Eulersche Zahl, Logarithmus, Grenzwerte & Wurzeln.md",
-    "Git/6 - Zettel/Java-Basics.md",
     "Git/2 - Quellen/Websites",
     "Git/7 - Archiv",
     "Git/6 - Zettel",

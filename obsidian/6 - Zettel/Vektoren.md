@@ -1,6 +1,6 @@
 
 2025-01-09  
-Tags: [[DHBW]] [[Grundlagen Lineare Algebra und Analytische Geometrie]]  
+Tags: [[DHBW]] [[Grundlagen Lineare Algebra und Analytische Geometrie]]  [[Mathe]]
 
 ---
 ## Theorie

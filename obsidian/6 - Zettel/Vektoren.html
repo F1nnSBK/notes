@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vektoren.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<p>2025-01-09<br>
+Tags: [[DHBW]] [[Grundlagen Lineare Algebra und Analytische Geometrie]]  [[Mathe]]</p>
+<hr>
+<h2 id="theorie">Theorie</h2>
+<h3 id="definitionen">Definitionen</h3>
+<h4 id="vektor">Vektor</h4>
+<ul>
+<li>
+<p><strong>Spaltenvektor</strong><br>
+$$\vec{v} = \begin{pmatrix} v_1 \ v_2 \ \vdots \ v_n \end{pmatrix}$$</p>
+</li>
+<li>
+<p><strong>Zeilenvektor</strong><br>
+$$\vec{v}^T = (v_1, v_2, \ldots, v_n)$$<br>
+Ein Zeilenvektor ist ein <em>transponierter</em> Spaltenvektor.</p>
+</li>
+<li>
+<p><strong>Nullvektor</strong><br>
+$$\vec{0}=\begin{pmatrix}<br>
+0\<br>
+0\<br>
+0\<br>
+\end{pmatrix}$$<br>
+Alle Elemente sind 0.</p>
+</li>
+<li>
+<p><strong>Einheitsvektor</strong><br>
+$$\vec{e}=\begin{pmatrix}<br>
+0\<br>
+0\<br>
+1\<br>
+\end{pmatrix}$$<br>
+Alle Elemente bis auf eines sind 0.</p>
+</li>
+<li>
+<p><strong>Skalar</strong>:<br>
+Eine Zahl, die kein Vektor ist, wird als <strong>Skalar</strong> bezeichnet.</p>
+</li>
+</ul>
+<h4 id="betr%C3%A4ge">Beträge</h4>
+<ul>
+<li>Die Länge eines Vektors ist dessen Betrag. $|\vec{v}|$</li>
+<li>Ein Betrag ist immer positiv.<br>
+$$|\vec{a}|=\sqrt{\vec{a}^T\cdot\vec{a}}=\sqrt{a_1^2+a_2^2+ ... + a_n^2}=\sqrt{\sum_{i=1}^{n}{a_i^2}}$$</li>
+</ul>
+<h4 id="normen">Normen</h4>
+<ul>
+<li>
+<p>Eine <strong>Norm</strong> ist eine Funktion, die einem Vektor eine Zahl zuordnet, die als <em>Größe</em> oder <em>Länge</em> des Vektors interpretiert werden kann. $p(\vec{x})=||\vec{x}||$</p>
+</li>
+<li>
+<p>Bedingungen von Normen:</p>
+<ol>
+<li><strong>Dreiecksungleichung</strong>: $||\vec{x}+\vec{y}||\leq ||\vec{x}|| + ||\vec{y}||$ $\space\forall \vec{x},\vec{y}\in \R^n$</li>
+<li><strong>absolute Homogenität</strong>: $||s\vec{x}||=|s|||\vec{x}||$ $\space\forall\vec{x}\in X und \space\forall s\in \R$</li>
+<li><strong>Definitheit</strong>: $\forall \vec{x}\in \R^n$ gilt, wenn $||\vec{x}||= 0$ dann $\vec{x}=\vec{0}$</li>
+</ol>
+</li>
+<li>
+<p>Wichtige Normen</p>
+<ul>
+<li>L1-Norm<br>
+$$||\vec{x}|<em>1 = \sum</em>{i=1}^n |x_i| \quad \text{(Taxi-, Manhattan-Distanz)}$$</li>
+<li>L2-Norm (euklidische Norm)<br>
+$$||\vec{x}|<em>2 = |\vec{x}| = \sqrt{\sum</em>{i=1}^n |x_i|^2}$$</li>
+<li>p-Norm<br>
+$$||\vec{x}|<em>p = \left( \sum</em>{i=1}^n |x_i|^p \right)^{\frac{1}{p}}$$</li>
+<li>$\infty$-Norm / Maximum-Norm<br>
+$$||\vec{x}|_\infty = \max(|x_1|, \dots, |x_n|) \quad \text{(Größter Wert der Elemente eines Vektors)}$$</li>
+</ul>
+</li>
+</ul>
+<h4 id="linearkombination-lineare-h%C3%BClle">Linearkombination, Lineare Hülle</h4>
+<ul>
+<li>Mulitplikative Kombination mehrere Vektoren $\vec{a_1},\vec{a_2}, ... ,\vec{a_n}$<br>
+$$\vec{b}=\sum_{i=1}^{n}{(\lambda_i \cdot \vec{a_i})}=\lambda_1 \cdot \vec{a_1}+\lambda_2 \cdot \vec{a_2} + ... + \lambda_n \cdot \vec{a_n}$$<br>
+mit $\lambda_i \in \R$ (Multiplikator)</li>
+<li>$\vec{b}$ ist dann eine <strong>Linearkombination</strong> von $\vec{a_1},\vec{a_2}, ... ,\vec{a_n}$</li>
+<li>Die lineare Hülle ist die Menge aller Linearkombinationen von $\vec{a_1},\vec{a_2}, ... ,\vec{a_n}$</li>
+</ul>
+<h5 id="kollinearit%C3%A4t">Kollinearität</h5>
+<ul>
+<li>Vektoren sind parallel (kollinear), wenn sich Vielfache voneinander sind.</li>
+<li>Es existiert ein $k\in\R$ sodass $\vec{a}=k\vec{b}$</li>
+</ul>
+<h5 id="orthogonoalit%C3%A4t">Orthogonoalität</h5>
+<ul>
+<li>Vektoren sind senkrecht (orthogonal) zueinander, wenn das Skalarprodukt $\vec{a}^T\cdot\vec{b}=0$ ergibt.</li>
+</ul>
+<h4 id="lineare-unabh%C3%A4ngigkeit">Lineare Unabhängigkeit</h4>
+<ul>
+<li>Vektoren sind <strong>linear unabhängig</strong> wenn $\lambda_1\vec{a}_1 + \lambda_2\vec{a}_2+ ... +\lambda_n\vec{a}_n = \vec{0}$ nur erfüllt ist, wenn alle $\lambda_i=0.$</li>
+<li>Vektoren sind <strong>linear abhängig</strong> wenn außer $\lambda_i=0$ noch mindestens eine weitere Lösung vorliegt.
+<ul>
+<li>Ist in der Reihe ein <strong>Nullvektor</strong> enthalten, sind sie immer linear abhängig.</li>
+</ul>
+</li>
+</ul>
+<h3 id="geraden-und-ebenen">Geraden und Ebenen</h3>
+<ul>
+<li>Ein Ortsvektor führt vom Ursprung zu einem Punkt in den Raum.</li>
+</ul>
+<h4 id="geraden">Geraden</h4>
+<ul>
+<li>Eine Gerade ist eine Linie im Raum</li>
+<li>Hat keinen Anfang und kein Ende</li>
+</ul>
+<h5 id="parameterdarstelleung">Parameterdarstelleung</h5>
+<p>$$\vec{x}=\vec{p} + \lambda \cdot \vec{q},\space\lambda\in\R$$</p>
+<ul>
+<li>$\vec{p}$ ist der Stützvektor (Ortsvektor)</li>
+<li>$\vec{q}$ Richtungsvektor</li>
+<li>$\lambda$ ist die Schrittweite entlang des Richtungsvektor von dem Stützvektor aus</li>
+<li>$\vec{x}$ ist ein beliebiger Punkt auf der Geraden</li>
+</ul>
+<h4 id="ebenen">Ebenen</h4>
+<ul>
+<li>Wird von 2 Richtungsvektoren aufgespannt.</li>
+</ul>
+<h5 id="parameterdarstelleung">Parameterdarstelleung</h5>
+<p>$$\vec{x}=\vec{p} + \lambda \cdot \vec{q} + \mu \cdot \vec{r},\space\space\space\space\lambda,\mu\in\R$$</p>
+<ul>
+<li>$\vec{p}$ ist der Stützvektor (Ortsvektor, Aufpunkt)</li>
+<li>$\vec{q}$ Richtungsvektor 1</li>
+<li>$\vec{r}$ Richtungsvektor 2, darf nicht kollinear zu dem anderen Richtungsvektor sein</li>
+<li>$\lambda,\mu$ sind die Schrittweiten entlang der Richtungsvektoren von dem Stützvektor aus</li>
+<li>$\vec{x}$ ist ein beliebiger Punkt auf der Ebene</li>
+</ul>
+<h5 id="koordinatengleichung">Koordinatengleichung</h5>
+<ul>
+<li>Aus der Parameterdarstellung kann ein LGS erstellte werden, das 3 Zeilen hat. Wenn man dieses löst, erhält man die Koordinatengleichung.<br>
+$$n_0+n_1x_1+n_2x_2+n_3x_3 = 0, \space\space\space n_i\in\R$$</li>
+<li>$n_0$ legt die Höhe der Ebene fest</li>
+</ul>
+<h5 id="normalenvektor">Normalenvektor</h5>
+<ul>
+<li>Aus der Koordinatengleichung kann der <strong>Normalenvektor</strong> abgelesen werden.<br>
+$$\vec{n}=(n_1,n_2,n_3)$$</li>
+</ul>
+<h5 id="kreuzprodukt">Kreuzprodukt</h5>
+<ul>
+<li>mit dem Kreuzprodukt $\vec{q}\times\vec{r}$ kann schnell der Normalenvektor gebildet werden.<br>
+$$<br>
+\vec{a} \times \vec{b} =<br>
+\begin{pmatrix}<br>
+a_1 \<br>
+a_2 \<br>
+a_3<br>
+\end{pmatrix}<br>
+\times<br>
+\begin{pmatrix}<br>
+b_1 \<br>
+b_2 \<br>
+b_3<br>
+\end{pmatrix}<br>
+=<br>
+\begin{pmatrix}<br>
+a_2 b_3 - a_3 b_2 \<br>
+a_3 b_1 - a_1 b_3 \<br>
+a_1 b_2 - a_2 b_1<br>
+\end{pmatrix}<br>
+= \vec{n}<br>
+$$</li>
+<li>Um $n_0$ zu berechnen, wird ein Punkt der Ebene (Stützvektor) in die Koordinatenform eingesetzt für $x_1, x_2 \space und \space x_3$.</li>
+</ul>
+<h4 id="abst%C3%A4nde">Abstände</h4>
+<h5 id="ursprung-ebene">Ursprung-Ebene</h5>
+<ul>
+<li>$\frac{|n_0|}{|\vec{n}|}$ ist der Abstand der Ebene zum Ursprung.</li>
+</ul>
+<h5 id="punkt-ebene">Punkt-Ebene</h5>
+<ul>
+<li>Punkt $\vec{p}$ in die Koordinatenform einsetzen.<br>
+$$\frac{|\vec{p}^T\vec{n}+n_0|}{|\vec{n}|}$$</li>
+</ul>
+<hr>
+<h3 id="operationen">Operationen</h3>
+<h4 id="skalarprodukt">Skalarprodukt</h4>
+<ul>
+<li>Ein Skalar $c \in \mathbb{R}$ multipliziert mit einem Vektor $\vec{v}$ ergibt:<br>
+$$c \cdot \vec{v} = c \cdot \begin{pmatrix} v_1 \ v_2 \ \vdots \ v_n \end{pmatrix}= \begin{pmatrix} c \cdot v_1 \ c \cdot v_2 \ \vdots \ c \cdot v_n \end{pmatrix}$$
+<ul>
+<li>Ein Zeilenvektor $\vec{a}^T$ multipliziert mit einem Vektor $\vec{b}$:<br>
+$$\vec{a}^T \cdot \vec{b} = (a_1,a_2,...,a_n) \cdot \begin{pmatrix} b_1 \ b_2 \ \vdots \ b_n \end{pmatrix}= a_1 \cdot b_1+a_2 \cdot b_2 \space +\space  ... \space +\space a_n \cdot b_n$$<br>
+Es gilt stets, Zeilenvektor mal Spaltenvektor!</li>
+</ul>
+</li>
+</ul>
+<h4 id="addition--subtraktion-von-vektoren">Addition / Subtraktion von Vektoren</h4>
+<ul>
+<li>mit $\vec{a}$ und $\vec{b}$ :<br>
+$$\vec{a} \pm \vec{b} = \begin{pmatrix} a_1\a_2\\vdots\a_n \end{pmatrix} \pm \begin{pmatrix} b_1\b_2\\vdots\b_n \end{pmatrix} = \begin{pmatrix} a_1 \pm b_1\a_2 \pm b_2\\vdots\a_n \pm b_n \end{pmatrix}$$<br>
+Die Vektoren müssen zur Addition/Subtraktion das gleiche Format aufweisen</li>
+</ul>
+<h4 id=""></h4>
+<hr>
+<h2 id="anwendung">Anwendung</h2>
+<ul>
+<li>
+<p><strong>Multiplikation mit ( c = 2 ) und $\vec{v} = \begin{pmatrix} 1 \ 3 \ -2 \end{pmatrix}$</strong>:<br>
+$$<br>
+2 \cdot \vec{v} = 2 \cdot  \begin{pmatrix} 1 \ 3 \ -2 \end{pmatrix} = \begin{pmatrix} 2 \ 6 \ -4 \end{pmatrix}$$</p>
+</li>
+<li>
+<p><strong>Transponieren eines Vektors</strong>:<br>
+$$\vec{v} = \begin{pmatrix} 1 \ 2 \end{pmatrix}<br>
+\longrightarrow<br>
+\vec{v}^T = (1, 2)$$</p>
+</li>
+</ul>
+
+</body>
+</html>

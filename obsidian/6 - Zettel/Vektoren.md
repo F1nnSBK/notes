@@ -122,7 +122,7 @@ $$
 + Um $n_0$ zu berechnen, wird ein Punkt der Ebene (Stützvektor) in die Koordinatenform eingesetzt für $x_1, x_2 \space und \space x_3$.
 #### Abstände
 ##### Ursprung-Ebene
-+ $\frac{|n_0|}{|\vec{n}|}$ ist der Abstand der Ebene zum Ursprung.
++ $\frac{|n_0|}{|\vec{n}|}$ ist der Abstand der Ebene zum Ursprung
 ##### Punkt-Ebene
 + Punkt $\vec{p}$ in die Koordinatenform einsetzen.
 $$\frac{|\vec{p}^T\vec{n}+n_0|}{|\vec{n}|}$$

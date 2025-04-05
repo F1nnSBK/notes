@@ -1,6 +1,6 @@
 
 2025-01-09  
-Tags: [[DHBW]] [[Grundlagen Lineare Algebra und Analytische Geometrie]]  [[Mathe]]
+Tags: [[DHBW]] [[Grundlagen Lineare Algebra und Analytische Geometrie]]  [[Zettel/obsidian/3 - Tags/Mathe]]
 
 ---
 ## Theorie
@@ -121,6 +121,17 @@ a_1 b_2 - a_2 b_1
 $$
 + Um $n_0$ zu berechnen, wird ein Punkt der Ebene (Stützvektor) in die Koordinatenform eingesetzt für $x_1, x_2 \space und \space x_3$.
 #### Abstände
+
+$$
+\begin{pmatrix}
+1\\ 2 \\
+2\\ 2 \\
+3 2 \\
+\end{pmatrix}
+$$
+
+
+
 ##### Ursprung-Ebene
 + $\frac{|n_0|}{|\vec{n}|}$ ist der Abstand der Ebene zum Ursprung
 ##### Punkt-Ebene

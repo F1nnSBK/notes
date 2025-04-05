@@ -1,6 +1,6 @@
 #Note
 27-05-2024
-Tags: [[Mathe]] [[Data-Science]] [[Grundlagen-&-Infinitesimalrechnung]]
+Tags: [[Zettel/obsidian/3 - Tags/Mathe]] [[Data-Science]] [[Grundlagen-&-Infinitesimalrechnung]]
 
 ### Natürliche Zahlen $\mathbb{N}$
 ---

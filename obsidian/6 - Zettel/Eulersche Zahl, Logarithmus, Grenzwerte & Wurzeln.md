@@ -1,6 +1,6 @@
 #Note
 27-05-2024
-Tags: [[Mathe]] [[Grundlagen-&-Infinitesimalrechnung]] [[Python]] [[Data-Science]]
+Tags: [[Zettel/obsidian/3 - Tags/Mathe]] [[Grundlagen-&-Infinitesimalrechnung]] [[Python]] [[Data-Science]]
 
 ## Eulersche Zahl $e$
 

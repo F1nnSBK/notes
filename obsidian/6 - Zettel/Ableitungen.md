@@ -1,6 +1,6 @@
 #Note
 28-05-2024
-Tags: [[Mathe]] [[Data-Science]] [[Python]] [[Grundlagen-&-Infinitesimalrechnung]]
+Tags: [[Zettel/obsidian/3 - Tags/Mathe]] [[Data-Science]] [[Python]] [[Grundlagen-&-Infinitesimalrechnung]]
 
 ## Ableitungen $f'(x)$
 

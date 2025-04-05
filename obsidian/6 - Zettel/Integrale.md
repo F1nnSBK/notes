@@ -1,7 +1,7 @@
 ## Integrale $\int$
 #Note
 28-05-2024
-Tags: [[Mathe]] [[Data-Science]] [[Python]] [[Grundlagen-&-Infinitesimalrechnung]]
+Tags: [[Zettel/obsidian/3 - Tags/Mathe]] [[Data-Science]] [[Python]] [[Grundlagen-&-Infinitesimalrechnung]]
 
 Das Integral ist die Umkehrung der Ableitung, statt *abgeleitet*, wird *integriert* oder *aufgeleitet*. Ein Integral einer Funktion $\int f(x)\ dx$ gibt die *Fläche unter dem Graphen* an.
 

@@ -1,6 +1,6 @@
 #Note
 28-05-2024
-Tags: [[Mathe]] [[Data-Science]] [[Python]] [[Grundlagen-&-Infinitesimalrechnung]]
+Tags: [[Zettel/obsidian/3 - Tags/Mathe]] [[Data-Science]] [[Python]] [[Grundlagen-&-Infinitesimalrechnung]]
 
 Mit Sigma $\Sigma$ wird impliziert, dass die angegebenen Elemente ***summiert*** werden.
 

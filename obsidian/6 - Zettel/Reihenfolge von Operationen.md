@@ -1,6 +1,6 @@
 #Note
 27-05-2024
-Tags: [[Mathe]] [[Grundlagen-&-Infinitesimalrechnung]] [[Python]] [[Data-Science]]
+Tags: [[Zettel/obsidian/3 - Tags/Mathe]] [[Grundlagen-&-Infinitesimalrechnung]] [[Python]] [[Data-Science]]
 
 Dieses Thema ist sehr wichtig um bei größeren Berechnungen den Überblick zu behalten. Dabei gilt die Regel Klammer > Potenz > Punkt (Multiplikation / Division) > Strich (Addition / Subtraktion)
 

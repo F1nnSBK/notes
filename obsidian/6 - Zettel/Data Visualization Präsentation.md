@@ -22,7 +22,7 @@ from sklearn.metrics import classification_report, confusion_matrix, ConfusionMa
 from sklearn.model_selection import train_test_split
 ```
 
-### 1. Data Cleaning <a name="data_cleaning">
+### 1. Data Cleaning
 
 #### Einlesen der Daten und grundlegende Informationen
 
@@ -329,7 +329,7 @@ df["duration"].describe()
 
 ---
 
-> ### 2. Data Exploration <a name="data_exploration">
+### 2. Data Exploration
 
 Häufigkeit der Zielvariable accepted
 
@@ -639,7 +639,7 @@ ax.grid(axis="y")
 
 ---
 
-> ### 3. Predictive Modelling <a name="predictive_modelling">
+### 3. Predictive Modelling
 
 ```python
 # Code Platzhalter
